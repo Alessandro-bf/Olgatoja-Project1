@@ -1,0 +1,25 @@
+.navbar-background {
+    background-color: #F7F5EA; /* Light background */
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+    color:black;
+    padding: 14px 16px;
+    display:block;
+    text-decoration: none;
+}
+/*
+nav a {
+    float: left; /* Display links in a row */
+    color: black; /* Dark text color */
+    text-align: center;
+    padding: 14px 16px; /* Padding inside links */
+    text-decoration: none; /* No underline on links */
+    display: block; /* Treat links as block elements */
+}*/
+
+nav a:hover {
+    background-color: blue; /* Change the link color to blue when hovering */
+}
