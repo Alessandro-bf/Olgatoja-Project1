@@ -6,6 +6,16 @@
   box-sizing: border-box;  /* Apply the size to the entire element including the border */
 }
 
+/* General Styles */
+body {
+  min-height: 100vh;  /* Allows to stretch larger than the height of the screen when there is enough content that needs to scroll */
+  display: flex;
+  flex-direction: column; /* to show the elements underneath each other */
+  /* Generic project styles */
+  color: #3a3a3a;
+
+}
+
 /* Header */
 
 .navbar-background {
@@ -51,6 +61,7 @@ header img {
 /* Main Content */
 main {
   background-color: lightblue;
+  flex: 1 0 auto; /* Make main element take up any surplus space to push footer down*/
 }
 
 footer {
