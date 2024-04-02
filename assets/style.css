@@ -16,10 +16,15 @@ body {
   /* Generic project styles */
   color: #3a3a3a;
   font-family: Arial;
-  
+
 }
 
 /* Header */
+
+h1 {
+  font-family: 'Ubuntu', dalton-maag;
+  
+}
 
 .navbar-background {
     background-color: #F7F5EA; /* Light background */
