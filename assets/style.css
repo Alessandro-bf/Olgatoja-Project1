@@ -1,3 +1,13 @@
+/* Asterisk wildcard selector to override default styles added by the browser */ 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  /* Apply the size to the entire element including the border */
+}
+
+/* Header */
+
 .navbar-background {
     background-color: #F7F5EA; /* Light background */
     overflow: hidden;
@@ -36,4 +46,13 @@ header img {
   max-width: 100%; 
   height: auto; 
   margin-top: 20px; 
+}
+
+/* Main Content */
+main {
+  background-color: lightblue;
+}
+
+footer {
+  background-color: aquamarine;
 }
