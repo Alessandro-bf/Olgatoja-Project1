@@ -26,40 +26,20 @@ h1 {
   
 }
 
-.navbar-background {
-    background-color: #F7F5EA; /* Light background */
-    overflow: hidden;
-}
-
-.text-center {
-    text-align: center;
-    color:black;
-    display:block;
-    text-decoration: none;
-}
-
 header {
-  background-color: white;
-  padding: 0 rem;
+  background-color: #f7f5ea;
+  padding: 0;
   position: fixed;
   z-index: 99;
   width: 100%;
   display: flex;  /* Show the elements in a row */
-  justify-content: space-between;
+  justify-content: space-between;  /* displays the flex items with space between the lines */
   align-items: baseline;
 }
 
 header a {
   text-decoration: none;
   color: inherit;
-
-}
-
-h1 {
-  color:rgb(54, 54, 54);
-  font-family: 'Arial', sans-serif; 
-  font-size: 24px;
-  margin-bottom: 10px; 
 }
 
 #menu {
@@ -79,9 +59,9 @@ h1 {
 
 nav {
   position: absolute;
-  background-color: white;
+  background-color: #f7f5ea;
   display: none;
-  padding: 1 rem;
+  padding: 0;
   left: 0;
   width: 100%;
   top: 100%;
@@ -99,20 +79,6 @@ nav {
   font-size: 2rem;
 }
 
-header p {
-  color: #666; 
-  font-family: 'Arial', sans-serif; 
-  font-size: 16px; 
-  line-height: 1.6; 
-  margin-bottom: 10px; 
-}
-
-header img {
-  max-width: 100%; 
-  height: auto; 
-  margin-top: 20px; 
-}
-
 /* Main Content */
 main {
   background-color: lightblue;
@@ -121,5 +87,5 @@ main {
 }
 
 footer {
-  background-color: aquamarine;
+  background-color: orange;
 }
