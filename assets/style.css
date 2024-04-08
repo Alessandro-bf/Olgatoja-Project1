@@ -83,11 +83,21 @@ nav {
 main {
   background-color: lightblue;
   flex: 1 0 auto; /* Make main element take up any surplus space to push footer down*/
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
+/* Footer */
+
 footer {
-  background-color: orange;
+  background-color: #f7f5ea;
+  
+}
+
+#media-icons {
+  display: flex;  
+  justify-content: space-between;  
+  align-items: baseline;
+  list-style-type: none;
 }
 
 /* Media query for tablet and larger (768 and up) */
@@ -112,9 +122,25 @@ footer {
     display: none;
   }
 
-  main {
-    margin-top: 70px;
+  #logo {
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+    
   }
 
-  
+  /* Main Content */
+  main {
+    margin-top: 80px;
+  }
+
+}
+
+/* Media query for laptop and larger (992 and up) */
+@media screen and (min-width: 992px) {
+  /* Header */
+  #menu a:hover {
+    border-bottom: 1px solid black;
+  }
+
 }
