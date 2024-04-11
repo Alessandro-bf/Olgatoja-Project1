@@ -30,7 +30,8 @@ h1 {
 
 header {
   background-color: #f7f5ea;
-  padding: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -91,9 +92,12 @@ main {
 
 .banner-container {
   display:grid;
-  gap: 16px;
-  height: 30vh;
+  place-items: center;
+  gap: 0px;
+  height: 100%;
   width: auto;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.5);
+  padding-bottom: 1rem;
 }
 
 #hero-image-holder {
@@ -178,6 +182,16 @@ footer {
   /* Main Content */
   main {
     margin-top: 80px;
+  }
+
+  .banner-container {
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+  }
+
+  #hero-image-holder {
+    order: 1;
+    /* Adjustments for larger screens */
+    max-height: 400px; /* Increase max-height for larger screens */
   }
 
 }
