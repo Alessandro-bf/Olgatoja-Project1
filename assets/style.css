@@ -23,7 +23,7 @@ body {
 
 /* Header */
 
-h1 {
+h1, h2 {
   font-family: 'Ubuntu', sans-serif;
   
 }
@@ -88,6 +88,7 @@ nav {
 /* Hero banner section */
 main {
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .banner-container {
@@ -120,6 +121,28 @@ main {
 #banner-text > p {
   font-size: 20px;
   padding: 0 16px;
+}
+
+/* 10 Steps Routine Section*/
+
+.steps-routine-container {
+  background-color: #FEF5FF;
+  padding: 16px;
+  
+}
+
+#steps-list {
+  list-style-type: none;
+}
+
+#steps-list h3 {
+  font-family: 'Ubuntu Medium', sans-serif;
+  color: #8C008F;
+  margin: 10px 0 5px;
+}
+
+#steps-list p {
+  margin: 10px 0 5px;
 }
 
 /* Footer */
