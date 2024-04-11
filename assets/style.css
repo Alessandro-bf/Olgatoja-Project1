@@ -125,10 +125,11 @@ main {
 
 /* 10 Steps Routine Section*/
 
-.steps-routine-container {
+.steps-routine-holder {
+  margin-top: 16px;
   background-color: #FEF5FF;
-  padding: 16px;
-  
+  padding: 1rem;
+
 }
 
 #steps-list {
@@ -144,6 +145,9 @@ main {
 #steps-list p {
   margin: 10px 0 5px;
 }
+
+
+/* About Section */
 
 /* Footer */
 
@@ -226,4 +230,15 @@ footer {
     border-bottom: 1px solid black;
   }
 
+  nav {
+    display:block;
+    position: relative;
+    width: fit-content;
+    padding-right: 6rem;
+  }
+
+  /* Main content */
+  body {
+     margin: 0 4rem; 
+  }
 }
