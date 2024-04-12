@@ -166,37 +166,38 @@ main {
   padding-bottom: 1rem;
 }
 
-#three-step-image-holder {
-  width: 100%;
-  height: 100vh;
+.step-image-holder {
+  width: 80%;
+  height: 50vh;
 }
 
-#three-step-image {
+.step-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-#five-step-image-holder {
+.set-offer-container {
   width: 100%;
-  height: 100vh;
-}
-
-#five-step-image {
-  width: 100%;
-  height: 100%;
   object-fit: contain;
+  text-align: top;
+  padding: 0 25px;
 }
 
-#ten-step-image-holder {
-  width: 100%;
-  height: 100vh;
+.set-offer-container > h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  padding-bottom: 1rem;
+  color: rgb(2, 2, 48);
 }
 
-#ten-step-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.set-offer-container > p {
+  font-size: 16px;
+}
+
+.set-offer-container ol {
+  padding-left: 2rem;
+  font-size: 16px;
 }
 
 /* About Section */
