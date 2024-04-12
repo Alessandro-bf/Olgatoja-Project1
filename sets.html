@@ -93,7 +93,47 @@
                 </ol>
             </div>        
         </section>
-        
+        <!-- Get in contact form -->
+        <section id="order">
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h3>Let's get ready!</h3>
+                <p>Please share the following information, and we will contact you shortly to arrange Ready-Made Set delivery.</p>
+                <label for="name">Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <label for="phone_number">Phone Number</label>
+                <input type="text" name="phone_number" id="phone_number" class="text-input" required>
+                <br>
+                <div class="radio-selector">
+                    <div>
+                        <label for="whatsapp">WhatsApp</label>
+                        <input type="radio" name="contact_preference" id="whatsapp" value="whatsapp" required checked>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="radio" name="contact_preference" id="email" value="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Call</label>
+                        <input type="radio" name="contact_preference" id="phone" value="phone" required>
+                    </div>
+                </div>
+                <label for="three_set">Quantity 3 Steps Set</label>
+                <input type="text" name="three_set" id="three_set" class="text-input">
+                <br>
+                <label for="five_set">Quantity 5 Steps Set</label>
+                <input type="text" name="five_set" id="five_set" class="text-input">
+                <br>
+                <label for="ten_set">Quantity 10 Steps Set</label>
+                <input type="text" name="ten_set" id="ten_set" class="text-input">
+                <br>
+                <button type="submit" class="order-button">Send</button>
+            </form>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <h4>Follow us on:</h4>
