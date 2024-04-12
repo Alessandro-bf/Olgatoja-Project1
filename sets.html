@@ -47,10 +47,10 @@
         
         <!-- Offer of Ready-Made Sets -->
         <section class="sets-offer-container">
-            <div class="step-image-holder">
+            <div class="step-image-holder" id="first">
                 <img class="step-image" src="../images/3_steps_set.png" alt="A set with 3 products to perform the multi-step routine">
             </div>
-            <div class="set-offer-container">
+            <div class="set-offer-container" id="second">
                 <h4>3 step set</h4>
                 <p>A minimal yet effective skincare routine to maintain its health and youthful appearance.</p>
                 <ol>
@@ -59,10 +59,10 @@
                     <li>SPF Moisturiser: with Biore UV Aqua Rich Watery Essence SPF50+ PA+++</li>
                 </ol>
             </div>
-            <div class="step-image-holder">
+            <div class="step-image-holder" id="third">
                 <img class="step-image" src="../images/5_steps_set.png" alt="A set with 5 products to perform the multi-step routine">
             </div>
-            <div class="set-offer-container">
+            <div class="set-offer-container" id="fourth">
                 <h4>5 step set</h4>
                 <p>Comprehensive skincare addressing various concerns and deeply moisturising.</p>
                 <ol>
@@ -73,10 +73,10 @@
                     <li>Moisturizer: with Laneige Water Bank Moisture Cream</li>
                 </ol>
             </div>
-            <div class="step-image-holder">
+            <div class="step-image-holder first" id="fifth">
                 <img class="step-image" src="../images/10_steps_set.png" alt="A set with 10 products to perform the multi-step routine">
             </div>
-            <div class="set-offer-container">
+            <div class="set-offer-container" id="sixth">
                 <h4>10 step set</h4>
                 <p>Get yourself a dewy “glass” skin effect with even more youthful-looking skin.</p>
                 <ol>
@@ -96,7 +96,7 @@
         <!-- Get in contact form -->
         <section id="order">
             <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h3>Let's get ready!</h3>
+                <h3>Get your Ready-Made Set and start enjoying a new lifestyle</h3>
                 <p>Please share the following information, and we will contact you shortly to arrange Ready-Made Set delivery.</p>
                 <label for="name">Name</label>
                 <input type="text" name="last_name" id="last-name" class="text-input" required>
@@ -107,18 +107,20 @@
                 <label for="phone_number">Phone Number</label>
                 <input type="text" name="phone_number" id="phone_number" class="text-input" required>
                 <br>
+                <p>Preferred way of contact:</p>
+                <br>
                 <div class="radio-selector">
                     <div>
                         <label for="whatsapp">WhatsApp</label>
                         <input type="radio" name="contact_preference" id="whatsapp" value="whatsapp" required checked>
                     </div>
                     <div>
-                        <label for="email">Email</label>
-                        <input type="radio" name="contact_preference" id="email" value="email" required>
-                    </div>
-                    <div>
                         <label for="phone">Phone Call</label>
                         <input type="radio" name="contact_preference" id="phone" value="phone" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="radio" name="contact_preference" id="email" value="email" required>
                     </div>
                 </div>
                 <label for="three_set">Quantity 3 Steps Set</label>

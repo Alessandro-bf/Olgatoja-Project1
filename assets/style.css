@@ -200,6 +200,61 @@ main {
   font-size: 16px;
 }
 
+/* Ready Made Sets Form */
+#order {
+  background-color: #FEF5FF;
+  background-size: cover;
+  background-position: 75%;
+  padding: 20px 5% 0 5%;
+ 
+  max-width: 400px;
+  display: grid;
+  place-items: center;
+}
+
+
+#contact-form {
+  color: rgb(2, 2, 48);
+  background-color: rgb(160, 105, 161, 0.5);
+  padding: 15px;
+}
+
+
+#contact-form>h4 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+
+.text-input {
+  background: transparent;
+  color: rgb(2, 2, 48);
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid rgb(2, 2, 48);
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+
+.radio-selector {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.order-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 100%;
+  background-color: #FEF5FF;
+  color: #8C008F;
+}
+
+
 /* About Section */
 
 #banner-about-container {
@@ -337,6 +392,39 @@ footer {
     /* Adjustments for larger screens */
     max-height: 400px; /* Increase max-height for larger screens */
   }
+
+/* Ready-Made Sets Section */
+
+.sets-offer-container {
+  margin-top: 10px;
+  display:grid;
+  place-items: top;
+  height: auto;
+  width: 100%;
+  padding-bottom: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px 500px;
+}
+
+#second {
+  order: 4;
+}
+
+#third {
+  order: 2;
+}
+
+#fourth {
+  order: 5;
+}
+
+#fifth {
+  order: 3;
+}
+
+#sixth {
+  order: 6;
+}
 
 /* About Section */
 
