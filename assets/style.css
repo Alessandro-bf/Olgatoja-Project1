@@ -172,6 +172,7 @@ main {
 .step-image-holder {
   width: 80%;
   height: 50vh;
+  max-height: 80vh;
 }
 
 .step-image {

@@ -37,11 +37,8 @@ This is the main marketing website for OLGATOJA. It is designed to be responsibe
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Different versions and screen sizes - [View](https://www.figma.com/file/2Hoq3THGrdmi37lx8E0mKP/Private-projects?type=design&node-id=152-11104&mode=design&t=hiQRTHCiJyPlu5bH-0)
 
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
@@ -66,23 +63,21 @@ This is the main marketing website for OLGATOJA. It is designed to be responsibe
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Canva:](https://www.canva.com/)
+    - Canva was used to create the logo, resizing images and editing photos for the website.
+1. [Figma:](https://www.figma.com/)
+    - Figma was used to create the [wireframes](https://www.figma.com/file/2Hoq3THGrdmi37lx8E0mKP/Private-projects?type=design&node-id=152-11104&mode=design&t=hiQRTHCiJyPlu5bH-0) during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   HTML: No errors were returned when passing through the official - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   CSS: No errors were returned when passing through the official - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -149,9 +144,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   The ready-made sets went on top of the hero banner on tablets and bigger size screens.
+    -   A max-height instruction was added to the style file to avoid overflow.
+-   The CSS validator was warning about sections without headings.
+    -   A hidden heading was implemented to add a heading without affecting the layout.
 
 ## Deployment
 
